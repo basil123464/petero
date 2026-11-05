@@ -1,0 +1,115 @@
+/* ===== Contacts page styles ===== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Navigation links (back / home) */
+li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a5fb4;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+li a:hover {
+    background-color: #144a8c;
+}
+
+/* Main contacts section */
+#contacts {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#contacts h2 {
+    text-align: center;
+    color: #1a5fb4;
+    margin-top: 0;
+}
+
+#contacts h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contacts p {
+    margin: 10px 0;
+}
+
+#contacts a {
+    color: #1a5fb4;
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal rule separating contact info from the form */
+hr {
+    border: none;
+    border-top: 2px solid #1a5fb4;
+    margin: 25px 0;
+}
+
+/* Contact form */
+#contactForm label {
+    font-weight: bold;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+#contactForm input[type="text"]:focus,
+#contactForm input[type="email"]:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: #1a5fb4;
+    box-shadow: 0 0 4px rgba(26, 95, 180, 0.4);
+}
+
+#contactForm textarea {
+    resize: vertical;
+}
+
+#contactForm input[type="submit"] {
+    background-color: #1a5fb4;
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactForm input[type="submit"]:hover {
+    background-color: #144a8c;
+}
