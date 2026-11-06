@@ -6,7 +6,25 @@
 
 </head>
 <body bgColor="yellow">
-    <H1><I>HELLO AM REAL PETER!</I></H1>
+    <div class="marquee">
+  <h1><i>HELLO AM REAL PETER!</i></h1>
+</div>
+
+<style>
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee h1 {
+    font-size: 48px;
+    display: inline-block;
+    animation: moveRight 10s linear infinite;
+  }
+  @keyframes moveRight {
+    from { transform: translateX(-100%); }
+    to   { transform: translateX(100vw); }
+  }
+</style>
 
 <imput type="file">
 <style>
