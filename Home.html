@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html></html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Curriculum Vitae</title>
+  <style>
+    body { background: yellow; }
+
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .marquee h1 {
+      font-size: 48px;
+      display: inline-block;
+      animation: moveRight 10s linear infinite;
+    }
+    @keyframes moveRight {
+      from { transform: translateX(-100%); }
+      to   { transform: translateX(100vw); }
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 1px solid black;
+      object-fit: cover;
+    }
+  </style>
 </head>
-<title><h1 >MY CURRICULUM VITAE  </h1> </title>
+<body>
 
-</head>
-<body bgColor="yellow">
-    <div class="marquee">
-  <h1><i>HELLO AM REAL PETER!</i></h1>
-</div>
+  <div class="marquee">
+    <h1><i>HELLO AM REAL PETER!</i></h1>
+  </div>
 
-<style>
-  .marquee {
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  .marquee h1 {
-    font-size: 48px;
-    display: inline-block;
-    animation: moveRight 10s linear infinite;
-  }
-  @keyframes moveRight {
-    from { transform: translateX(-100%); }
-    to   { transform: translateX(100vw); }
-  }
-</style>
+  <img src="index.jpeg" alt="Profile picture of Loomu Peter">
 
-<imput type="file">
-<style>
- img  {width:150px;
-height:150px;
-border-radius:50%;
-border:1px solid black;
-object-fit:cover; } 
-</style>
-<img src="index.jpeg"alt" ">
+  <h1><i>HELLO THERE WELCOME TO MY CV WEBPAGE!</i></h1>
 
-<H1><I>HELLO THERE WELCOME TO MY CV WEBPAGE!</I></H1>
-<h><u><b>About Me</b></u></h>
-<li><P>Am loomu peter a motivated Bachelor of Information and Technology student(Reg:IN17/00101/25),with foundational skills on system analysis & design ,database management and web development(HTML,CSS & Java).Eager to apply technical skills in a real-world environmenty and learn from experience IT professionals.As a fast learner,disciplined and a passionate team player </P></li>
-<LI><a href="index.html"><i><b>view my personal cv</b></i></a></LI>
+  <h2><u><b>About Me</b></u></h2>
+  <p>
+    Am Loomu Peter, a motivated Bachelor of Information and Technology student
+    (Reg: IN17/00101/25), with foundational skills in system analysis &amp; design,
+    database management and web development (HTML, CSS &amp; Java). Eager to apply
+    technical skills in a real-world environment and learn from experienced IT
+    professionals. As a fast learner, disciplined and a passionate team player.
+  </p>
+
+  <p><a href="index.html"><i><b>View my personal CV</b></i></a></p>
+
+</body>
+</html>
